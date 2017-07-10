@@ -1,0 +1,3 @@
+## EdgeHosting Apache base
+## Documentation coming soon...
+
