@@ -1,5 +1,41 @@
-*.orig
-*.bck
-*.back
-*.old
+# Backup files
+**.orig
+**.bck
+**.back
+**.old
 
+# Primary httpd.conf dir
+conf/**
+conf/httpd.conf
+
+# conf.d
+conf.d/README
+conf.d/php.conf
+conf.d/ssl.conf
+conf.d/default.conf
+conf.d/manual.conf
+conf.d/welcome.conf
+
+# logs
+logs
+logs/**
+
+# ssl
+ssl/**
+!ssl/empty
+
+# modules
+modules
+modules/**
+
+# run
+run
+run/**
+
+# sites-enabled
+sites-enabled/**
+!sites-enabled/empty
+
+# sites-available
+sites-available/**
+!sites-available/localhost.conf
